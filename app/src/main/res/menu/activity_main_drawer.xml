@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_ac_dat2"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_ac_help"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/act"
+            android:icon="@drawable/ic_ac_notif"
+            android:title="@string/menu_uved" />
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/ic_event"
+            android:title="Журнал" />
+
+    </group>
+</menu>

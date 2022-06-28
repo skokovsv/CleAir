@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.project.ui.help_frag.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_uved"
+        android:name="com.example.project.ui.notif.NotifFragment"
+        android:label="@string/menu_uved"
+        tools:layout="@layout/fragment_notif" />
+    <fragment
+        android:id="@+id/event"
+        android:name="com.example.project.ui.event.EventFragment"
+        android:label="Журнал"
+        tools:layout="@layout/event_fragment" />
+
+
+
+</navigation>

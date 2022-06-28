@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Датчик 1</string>
+    <string name="nav_header_subtitle">Комната: Ванная</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Выход</string>
+
+
+    <string name="menu_home">Датчики</string>
+    <string name="menu_uved">Уведомления</string>
+    <string name="menu_help">Помощь</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
